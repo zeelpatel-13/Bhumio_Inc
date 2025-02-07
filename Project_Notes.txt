@@ -1,18 +1,98 @@
-clone this project in vscode.
-open new terminal and follow :  ' npm run start '
 
-Assignment Description
-1. Develop simple eSign workflow application using NestJS
-2. e-Sign work flow can be as shown in next page
-1. User should be able to load PDF, you can store this PDF in backend directory (or any other storage
-location)
-2. User should be able to add esign tag (use https://www.opensignlabs.com/ eSign API). If you are Back
-End Developer you can ignore Front End Part
-3. User should be able to preview PDF
-4. Upon Submit button you will use opensignlabs API and submit for eSign
-3. Use NestJS and follow Clean Architecture approach to develop code
-4. Share Github/GitLab repository link
-Expected Result
-1. Unit Test Cases
-2. Code in NestJS as per Clean Architecture approach
-3. Test Cases   i create this assign ment and i want to write nots in vscode file like how it work so as per this assignmnet user can upload and priview pdf and store in backend and insted of open 
+# eSign Workflow Application - Notes
+
+## Project Overview  
+This project is a simple eSign workflow application developed using **NestJS**, following the **Clean Architecture** approach. Below are the key features and functionalities:
+
+---
+
+### Instructions to Run the Project  
+
+1. **Clone the Repository:**  
+   Open your terminal and run:
+   ```bash
+   git clone <repository-link>
+   ```
+   Replace `<repository-link>` with your actual project URL.
+
+2. **Open in VSCode:**  
+   Navigate to the cloned project folder and open it in VSCode:
+   ```bash
+   cd <project-folder-name>
+   code .
+   ```
+
+3. **Install Dependencies:**  
+   Run the following command in the terminal to install the project dependencies:
+   ```bash
+   npm install
+   ```
+
+4. **Start the Application:**  
+   Run the application using:
+   ```bash
+   npm run start
+   ```
+
+---
+
+### Features  
+
+1. **PDF Upload:**  
+   - The user can upload a PDF file which is then stored on the backend directory.
+
+2. **Add eSign Tag:**  
+   - Instead of using OpenSignLabs API as suggested in the assignment, I integrated the **DocuSign API** for eSignature functionality.
+
+3. **PDF Preview:**  
+   - The user can preview the uploaded PDF file before submitting it for signature.
+
+4. **Submit for eSign:**  
+   - Upon clicking the Submit button, the application sends the PDF to the **DocuSign API** for eSigning.
+
+5. **Download Signed PDF:**  
+   - After a successful signing process, the user can download the signed PDF file.
+
+---
+
+### Technical Details  
+
+1. **Backend:**  
+   - Developed using **NestJS** framework to ensure a scalable and maintainable backend.  
+   - Clean Architecture principles were followed, separating business logic from the framework and infrastructure layers.
+
+2. **Storage:**  
+   - Uploaded PDFs are stored in a backend directory for easy file management.
+
+3. **API Integration:**  
+   - **DocuSign API** is used for adding eSign functionality and submitting documents for signature.
+
+---
+
+### Testing  
+- Comprehensive **unit test cases** are implemented to ensure the reliability and stability of the backend services.
+
+---
+
+### Expected Workflow  
+
+1. **Upload PDF:**  
+   - User uploads a PDF file.  
+   - The file is stored in the backend directory.
+
+2. **Preview PDF:**  
+   - The uploaded PDF is displayed for user preview.
+
+3. **Add eSign and Submit:**  
+   - The user adds an eSign tag and submits the document for signature through the DocuSign API.
+
+4. **Download Signed PDF:**  
+   - After the signing process, the signed PDF becomes available for download.
+
+---
+
+### Additional Notes  
+- The application ensures secure handling of PDF files and integrates seamlessly with the **DocuSign API**.  
+- Clean Architecture patterns make the application modular and easy to extend.  
+- Test cases validate key functionalities like PDF upload, eSign submission, and download of signed documents.
+

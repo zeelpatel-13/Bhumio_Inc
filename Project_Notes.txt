@@ -1,0 +1,18 @@
+clone this project in vscode.
+open new terminal and follow :  ' npm run start '
+
+Assignment Description
+1. Develop simple eSign workflow application using NestJS
+2. e-Sign work flow can be as shown in next page
+1. User should be able to load PDF, you can store this PDF in backend directory (or any other storage
+location)
+2. User should be able to add esign tag (use https://www.opensignlabs.com/ eSign API). If you are Back
+End Developer you can ignore Front End Part
+3. User should be able to preview PDF
+4. Upon Submit button you will use opensignlabs API and submit for eSign
+3. Use NestJS and follow Clean Architecture approach to develop code
+4. Share Github/GitLab repository link
+Expected Result
+1. Unit Test Cases
+2. Code in NestJS as per Clean Architecture approach
+3. Test Cases   i create this assign ment and i want to write nots in vscode file like how it work so as per this assignmnet user can upload and priview pdf and store in backend and insted of open 

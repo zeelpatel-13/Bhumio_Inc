@@ -1,0 +1,20 @@
+design-workflow/
+├── public/
+│   ├── index.html          
+│   ├── style.css          
+│   └── script.js 
+├── pdf-storage/            
+├── src/
+│   ├── app/
+│   │   └── upload-pdf.service.ts
+│   ├── domain/
+│   │   └── pdf-document.entity.ts
+│   ├── infrastructure/
+│   │   └── docusign.service.ts
+│   ├── interfaces/
+│   │   └── pdf.controller.ts
+│   ├── app.module.ts
+│   └── main.ts
+├── test/
+├── package.json
+└── tsconfig.json

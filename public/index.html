@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>PDF Upload, Preview, and Sign</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+  <h1>PDF Upload, Preview & Sign</h1>
+
+  <form id="uploadForm" enctype="multipart/form-data">
+    <input type="file" id="fileInput" accept="application/pdf" required />
+  </form>
+
+  <h2>PDF Preview:</h2>
+  <canvas id="pdfCanvas" width="600" height="800"></canvas>
+
+  <h2>Draw Signature Below:</h2>
+  <canvas id="signatureCanvas" width="600" height="200" style="border: 1px solid black;"></canvas>
+  <div id="btnDiv">
+    <button id="clearButton">Clear Signature</button>
+    <button id="submitButton">Download Signed PDF</button>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.15.349/pdf.min.js"></script>
+  <script src="/script.js"></script>
+</body>
+
+</html>

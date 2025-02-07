@@ -1,0 +1,91 @@
+body {
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+  background-color: #fff7ff;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+  margin: 0px;
+  background-color: #650078;
+  color: white;
+}
+
+h2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#uploadForm {
+  text-align: center;
+  margin: 20px;
+}
+
+#fileInput {
+  display: block;
+  background-color: #d95694;
+  /* Same green as buttons */
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 5px;
+  margin: 10px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  background-color: #a187d7;
+  border-radius: 6px;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: #7e67af;
+}
+
+#btnDiv {
+  text-align: center;
+}
+
+#pdfCanvas {
+  display: block;
+  margin: 20px auto;
+  border: 1px solid #ddd;
+}
+
+#signatureCanvas {
+  display: block;
+  margin: 20px auto;
+  border: 1px solid #ddd;
+}
+
+canvas {
+  background-color: #fff;
+}
+
+#clearButton,
+#submitButton {
+  margin-top: 10px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="file"] {
+  padding: 10px;
+  font-size: 16px;
+}
